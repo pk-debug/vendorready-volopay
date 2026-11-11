@@ -28,7 +28,7 @@ Claude runs outside VendorReady and pays for its own reasoning. VendorReady has 
 
 ## Run locally
 
-Requirements: Node.js 22.12 or later.
+Requirements: Node.js 22.18 or later.
 
     npm install
     npm test
