@@ -1,0 +1,36 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "vendorready-volopay",
+	"main": "worker/index.ts",
+	"compatibility_date": "2026-11-10",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api/*",
+			"/mcp",
+			"/mcp/*"
+		]
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "vendorready-db",
+			"database_id": "3ea3f4e7-15d9-49c9-9bc6-de46f387b236",
+			"migrations_dir": "migrations"
+		},
+		{
+			"binding": "vendorready_db",
+			"database_name": "vendorready-db",
+			"database_id": "3ea3f4e7-15d9-49c9-9bc6-de46f387b236",
+			"remote": true
+		}
+	]
+}

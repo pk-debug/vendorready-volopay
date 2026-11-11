@@ -1,0 +1,39 @@
+{
+  "name": "vendorready-volopay",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "VendorReady: Claude-powered via external MCP, zero AI APIs inside app",
+  "scripts": {
+    "dev": "npm run build && wrangler dev",
+    "dev:frontend": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "db:local": "wrangler d1 migrations apply DB --local",
+    "db:remote": "wrangler d1 migrations apply DB --remote",
+    "logs": "wrangler tail vendorready-volopay",
+    "audit:no-ai": "node scripts/check-no-model-keys.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "agents": "0.33.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "@cloudflare/workers-types": "^5.20261109.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8",
+    "wrangler": "^4.50.0",
+    "@types/node": "^22.15.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
