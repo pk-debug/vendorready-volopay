@@ -6,7 +6,7 @@
 
 ## 0. What I need
 
-- Mac/Windows/Linux with Node.js **22.12+** and npm installed
+- Mac/Windows/Linux with Node.js **22.18+** and npm installed
 - Git installed
 - Free GitHub account
 - Cloudflare account with Workers and D1 enabled
