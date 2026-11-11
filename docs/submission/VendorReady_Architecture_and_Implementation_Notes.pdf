@@ -1,0 +1,479 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 3007 >>
+stream
+q
+1 1 1 rg
+0 0 612 792 re f
+Q
+q
+0.07 0.15 0.25 rg
+0 776 612 16 re f
+Q
+BT
+/F2 9 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 752 Tm
+(VENDORREADY | ARCHITECTURE + IMPLEMENTATION NOTES) Tj
+ET
+BT
+/F1 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 25 Tm
+(VendorReady | Architecture) Tj
+ET
+BT
+/F2 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 548 25 Tm
+(1) Tj
+ET
+BT
+/F2 19 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 715 Tm
+(Architecture) Tj
+ET
+BT
+/F1 9 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 697 Tm
+(Built prototype: one Cloudflare Worker, one D1 database, one shared demo workspace) Tj
+ET
+q
+0.93 0.97 0.97 rg
+0.93 0.97 0.97 RG
+42 565 220 82 re B
+Q
+BT
+/F2 10 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 53 628 Tm
+(Customer's Claude) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 53 611 Tm
+(Customer's Claude subscription) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 53 599 Tm
+(No model calls inside VendorReady) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 53 587 Tm
+(Remote MCP connector + API key) Tj
+ET
+q
+0.93 0.97 0.97 rg
+0.93 0.97 0.97 RG
+350 565 220 82 re B
+Q
+BT
+/F2 10 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 361 628 Tm
+(Operations browser) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 361 611 Tm
+(React + Vite web interface) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 361 599 Tm
+(Signed demo session) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 361 587 Tm
+(REST requests to the Worker) Tj
+ET
+q
+0.9 0.95 0.96 rg
+0.9 0.95 0.96 RG
+170 390 272 111 re B
+Q
+BT
+/F2 10 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 181 482 Tm
+(Cloudflare Worker: vendorready-volopay) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 181 465 Tm
+(MCP endpoint: /mcp) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 181 453 Tm
+(REST API: /api/*) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 181 441 Tm
+(Input validation + session / MCP auth) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 181 429 Tm
+(Static app assets served by Worker) Tj
+ET
+q
+0.93 0.97 0.97 rg
+0.93 0.97 0.97 RG
+215 210 182 78 re B
+Q
+BT
+/F2 10 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 226 269 Tm
+(Cloudflare D1) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 226 252 Tm
+(Supplier records) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 226 240 Tm
+(Checklist items + completion) Tj
+ET
+BT
+/F1 8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 226 228 Tm
+(Shared persistence) Tj
+ET
+q
+1.5 w
+0.03 0.55 0.52 RG
+150 565 m 237 501 l S
+Q
+q
+1.5 w
+0.03 0.55 0.52 RG
+460 565 m 377 501 l S
+Q
+q
+1.5 w
+0.03 0.55 0.52 RG
+306 390 m 306 288 l S
+Q
+BT
+/F2 8 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 58 526 Tm
+(MCP over HTTPS) Tj
+ET
+BT
+/F2 8 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 422 526 Tm
+(REST over HTTPS) Tj
+ET
+BT
+/F2 8 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 316 330 Tm
+(D1 binding) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 160 Tm
+(Data flow: Claude submits a structured tool call; the Worker authenticates and validates it, then reads or) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 147 Tm
+(writes D1. The browser uses the Worker REST API to display and edit the same record. A subsequent MCP read) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 134 Tm
+(returns the persisted state. The browser session and MCP credential are separate controls.) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 5152 >>
+stream
+q
+1 1 1 rg
+0 0 612 792 re f
+Q
+q
+0.07 0.15 0.25 rg
+0 776 612 16 re f
+Q
+BT
+/F2 9 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 752 Tm
+(VENDORREADY | ARCHITECTURE + IMPLEMENTATION NOTES) Tj
+ET
+BT
+/F1 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 25 Tm
+(VendorReady | Implementation notes) Tj
+ET
+BT
+/F2 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 548 25 Tm
+(2) Tj
+ET
+BT
+/F2 19 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 715 Tm
+(Implementation Notes) Tj
+ET
+BT
+/F1 9 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 697 Tm
+(README summary for the assignment reviewer) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 677 Tm
+(Data flow and tools) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 662 Tm
+(Built with React, TypeScript and Vite for the browser UI; a Cloudflare Worker hosts the REST API, static assets) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 649.9 Tm
+(and remote MCP endpoint; Cloudflare D1 stores onboarding records. GitHub Actions runs checks and a manually) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 637.8 Tm
+(confirmed deployment. Claude is an external client using its own account and connector. MCP carries tool) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 625.6999999999999 Tm
+(requests; it is not a model or payment integration.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 606.5999999999999 Tm
+(Responsibility boundary: Volopay vs. partner) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 591.5999999999999 Tm
+(This is an independent assignment prototype, not a Volopay product integration. The built scope covers the demo) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 579.4999999999999 Tm
+(workspace, checklist tracking and Claude/MCP interaction. No Volopay production APIs, accounts, payment rails,) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 567.3999999999999 Tm
+(supplier verification or internal systems are connected. In a proposed partnership, Volopay would define product) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 555.2999999999998 Tm
+(ownership, customer permissions, risk/compliance policy and any approved finance-system integration; VendorReady) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 543.1999999999998 Tm
+(would provide workflow UX and integration components only under agreed security, legal and technical review.) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 531.0999999999998 Tm
+(These are proposed boundaries, not commitments or existing integrations.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 511.9999999999998 Tm
+(Built vs. proposed production system) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 496.9999999999998 Tm
+(Built and verified: create/list/get supplier onboarding through MCP; browser-based editing; D1 persistence; demo) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 484.89999999999975 Tm
+(login; deployed health endpoint; GitHub Actions deployment. Proposed, not built: tenant-specific identity and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 472.7999999999997 Tm
+(authorization, supplier portal, document upload, verification providers, notifications, audit export, billing,) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 460.6999999999997 Tm
+(ERP/payment integrations, production monitoring and service-level commitments.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 441.5999999999997 Tm
+(Assumptions and limitations) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 426.5999999999997 Tm
+(The demo is a shared fictional workspace and is not appropriate for real personal, tax, banking or) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 414.49999999999966 Tm
+(supplier-sensitive data. Checklist completion is human-reported and does not prove document validity. Demo) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 402.39999999999964 Tm
+(credentials and MCP API key are private and are not included here. The app has no AI model API key or inference) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 390.2999999999996 Tm
+(service. The INR 999/month price is a hypothesis; customer demand, acquisition cost, retention and willingness) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 378.1999999999996 Tm
+(to pay have not been tested.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 359.09999999999957 Tm
+(Next steps) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 344.09999999999957 Tm
+(Run customer interviews and five design-partner pilots; validate repeat usage and willingness to pay; design) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 331.99999999999955 Tm
+(tenant isolation and least-privilege access; complete a security/privacy review before handling real data; only) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 319.8999999999995 Tm
+(then evaluate document intake, notifications and finance integrations. Track the real Claude-to-D1 workflow and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 307.7999999999995 Tm
+(human edits as the prototype baseline.) Tj
+ET
+q
+0.93 0.97 0.97 rg
+42 105 528 46 re f
+Q
+BT
+/F1 8.8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 54 132 Tm
+(No private credentials are embedded in this PDF. Provide reviewer access only through a secure channel approved) Tj
+ET
+BT
+/F1 8.8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 54 120.5 Tm
+(by the assignment team.) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000272 00000 n 
+0000003331 00000 n 
+0000003467 00000 n 
+0000008671 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+8807
+%%EOF

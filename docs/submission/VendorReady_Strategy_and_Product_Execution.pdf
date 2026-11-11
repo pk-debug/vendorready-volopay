@@ -1,0 +1,466 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 5520 >>
+stream
+q
+1 1 1 rg
+0 0 612 792 re f
+Q
+q
+0.07 0.15 0.25 rg
+0 776 612 16 re f
+Q
+BT
+/F2 9 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 752 Tm
+(VENDORREADY | BUSINESS STRATEGY + PRODUCT EXECUTION) Tj
+ET
+BT
+/F1 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 25 Tm
+(VendorReady | Submission strategy) Tj
+ET
+BT
+/F2 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 548 25 Tm
+(1) Tj
+ET
+BT
+/F2 19 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 715 Tm
+(Business Strategy) Tj
+ET
+BT
+/F1 9 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 697 Tm
+(A persistent supplier-readiness workspace, powered by a customer's own Claude) Tj
+ET
+q
+0.93 0.97 0.97 rg
+42 630 528 48 re f
+Q
+BT
+/F2 8 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 54 658 Tm
+(THE IDEA) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 54 643 Tm
+(Turn a plain-language request in Claude into an editable, durable supplier onboarding record shared with) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 54 631 Tm
+(the operations team.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 610 Tm
+(Problem) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 595 Tm
+(Small businesses collect supplier agreements, registration evidence, contacts and approvals across email, chat) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 582.9 Tm
+(and spreadsheets. Requirements get duplicated, status becomes stale, and a useful AI-generated checklist can be) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 570.8 Tm
+(lost when a chat ends. Teams need a lightweight source of truth that people can update after the conversation.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 551.6999999999999 Tm
+(Target customer and first use case) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 536.6999999999999 Tm
+(Initial customer hypothesis: Indian SMB finance, procurement and operations teams that onboard several suppliers) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 524.5999999999999 Tm
+(repeatedly but do not need a large procurement suite. The first job is to create a checklist, assign a due date,) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 512.4999999999999 Tm
+(track completion, and let a human correct the record before the supplier is ready for an internal handoff.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 493.39999999999986 Tm
+(Product and differentiation) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 478.39999999999986 Tm
+(The user asks in their Claude account; Claude calls VendorReady over remote MCP. The application validates and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 466.29999999999984 Tm
+(stores the supplier and checklist in D1. A manager uses the web app to edit supplier details, requirements and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 454.1999999999998 Tm
+(completion status. Claude can retrieve the updated record through MCP. Claude provides reasoning; VendorReady) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 442.0999999999998 Tm
+(provides persistence, an operational interface and a shared state after chat ends. The app itself makes no model) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 429.9999999999998 Tm
+(API calls.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 410.89999999999975 Tm
+(Business model and growth potential) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 395.89999999999975 Tm
+(Pricing hypothesis for a small-team pilot: INR 999 per organization per month, not validated. Five) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 383.7999999999997 Tm
+(design-partner pilots would test repeat use and willingness to pay. At 100 paying organizations, the) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 371.6999999999997 Tm
+(illustrative subscription run rate is INR 99,900 monthly \(INR 1,198,800 annualized before costs and taxes\); this) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 359.5999999999997 Tm
+(is a scenario, not a forecast. Customers bring their own Claude subscription. VendorReady would still bear) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 347.49999999999966 Tm
+(hosting, support, security, payment and acquisition costs.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 328.39999999999964 Tm
+(Acquisition and validation) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 313.39999999999964 Tm
+(Start with founder-led outreach to SMB finance and operations leads, then seek referrals from accountants and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 301.2999999999996 Tm
+(fractional finance operators. Interview users, observe onboarding workflows, and measure repeated checklist use,) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 289.1999999999996 Tm
+(time to create a record, completion visibility and willingness to pay. Expand only if pilots show repeat value;) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 277.09999999999957 Tm
+(test adjacent integrations with customer evidence rather than assuming demand.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 257.99999999999955 Tm
+(Risks and assumptions) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 242.99999999999955 Tm
+(Teams may prefer spreadsheets or existing procurement systems. MCP availability and connector policies vary. The) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 230.89999999999955 Tm
+(current shared demo is not production-grade multi-tenant software. A completed checkbox means a person marked an) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 218.79999999999956 Tm
+(item complete; it is not legal, tax, identity or bank verification. Pricing and growth figures are unvalidated) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 206.69999999999956 Tm
+(hypotheses.) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3974 >>
+stream
+q
+1 1 1 rg
+0 0 612 792 re f
+Q
+q
+0.07 0.15 0.25 rg
+0 776 612 16 re f
+Q
+BT
+/F2 9 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 752 Tm
+(VENDORREADY | BUSINESS STRATEGY + PRODUCT EXECUTION) Tj
+ET
+BT
+/F1 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 25 Tm
+(VendorReady | Product execution) Tj
+ET
+BT
+/F2 8 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 548 25 Tm
+(2) Tj
+ET
+BT
+/F2 19 Tf
+0.07 0.15 0.25 rg
+1 0 0 1 42 715 Tm
+(Product Execution) Tj
+ET
+BT
+/F1 9 Tf
+0.38 0.44 0.51 rg
+1 0 0 1 42 697 Tm
+(Working prototype and verified Claude-to-app workflow) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 677 Tm
+(Live links) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 662 Tm
+(Web application: https://vendorready-volopay.coder-pawan1.workers.dev Health endpoint:) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 649.9 Tm
+(https://vendorready-volopay.coder-pawan1.workers.dev/api/health Remote MCP endpoint:) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 637.8 Tm
+(https://vendorready-volopay.coder-pawan1.workers.dev/mcp Source repository:) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 625.6999999999999 Tm
+(https://github.com/pk-debug/vendorready-volopay) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 606.5999999999999 Tm
+(What is built and demonstrated) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 591.5999999999999 Tm
+(A React web dashboard, Cloudflare Worker REST API and remote MCP tools are deployed together. MCP can create,) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 579.4999999999999 Tm
+(retrieve and list onboarding records. The browser app can search and filter suppliers, edit supplier details and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 567.3999999999999 Tm
+(checklist items, and persist changes. Cloudflare D1 stores the same records used by both Claude and the browser.) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 555.2999999999998 Tm
+(The deployed health endpoint returned ok=true and ai_inside_app=false.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 536.1999999999998 Tm
+(End-to-end test performed) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 521.1999999999998 Tm
+(Claude created the fictional Acme Test Supplies record through the VendorReady MCP connector. It appeared in the) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 509.0999999999998 Tm
+(live dashboard. The checklist was edited in the browser, and Claude subsequently retrieved the record and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 496.9999999999998 Tm
+(reported all six items complete. This verifies the actual integration and persistence path, not a mock response.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 42 477.89999999999975 Tm
+(Simulated, excluded, and access notes) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 462.89999999999975 Tm
+(Tax, bank and document checklist entries are fictional placeholders only. The prototype does not verify) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 450.7999999999997 Tm
+(documents, tax registration or bank ownership; it does not initiate payments, send reminders, upload files,) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 438.6999999999997 Tm
+(integrate with an ERP or provide tenant isolation. Do not enter real supplier-sensitive data. The demo login and) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 426.5999999999997 Tm
+(MCP key are private credentials and are intentionally not printed in this document. Share access only through a) Tj
+ET
+BT
+/F1 9.2 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 42 414.49999999999966 Tm
+(reviewer-approved secure channel; the submission form warns not to submit passwords.) Tj
+ET
+q
+0.95 0.96 0.98 rg
+42 105 528 64 re f
+Q
+BT
+/F2 8 Tf
+0.03 0.55 0.52 rg
+1 0 0 1 54 151 Tm
+(PRODUCT LINK FIELD) Tj
+ET
+BT
+/F1 8.8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 54 134 Tm
+(Use the live app URL above for the prototype link and the /mcp URL for MCP. Provide any required private access) Tj
+ET
+BT
+/F1 8.8 Tf
+0.13 0.18 0.24 rg
+1 0 0 1 54 122.5 Tm
+(details only through a secure channel approved by the assignment team.) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000272 00000 n 
+0000005844 00000 n 
+0000005980 00000 n 
+0000010006 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+10142
+%%EOF

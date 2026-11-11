@@ -1,44 +1,76 @@
-# Five-minute founder pitch — recording script and shot list
+# VendorReady — five-minute video script
 
-**Maximum allowed video:** 5:00 minutes. Aim to record around 4:30–4:45 to leave a margin. Talk clearly; rehearse before recording. The five sections follow Volopay's assignment PDF.
+The form requires an accessible video link no longer than five minutes. This script is designed for a camera introduction, a real screen demonstration, and a concise business pitch. Speak naturally and leave short pauses while pages load or tools run. Do not show passwords, API keys, Cloudflare settings, or other private information.
 
-## 0:00–0:45 — Who I am (camera)
+## 0:00–0:40 — Introduction (camera)
 
-"Hi, I'm Pawan Kumar, a product-minded software engineer with over six years of experience shipping apps across consumer products, banking, insurance and payments. I've worked with engineers, QA and stakeholders to take ideas into real production features. I'm applying to Volopay because I enjoy the combination of identifying business problems, making product trade-offs and actually building the solution. For this assignment, I built VendorReady."
+**Say:**
 
-## 0:45–1:15 — Best work (camera + one evidence slide)
+"Hi, I'm Pawan Kumar. I have over six years of experience shipping products across consumer apps, banking, insurance, and payments, and I'm now moving into product management. I'm interested in Volopay's Founder’s Office, Product and Growth role because it combines customer problem-solving, product execution, and business outcomes. For this assignment, I built VendorReady, a supplier onboarding workspace connected to Claude through MCP."
 
-"One result I'm proud of is helping improve crash-free sessions on an insurance field-sales application from 95% to 99.8%. I used production crash data to focus fixes on what mattered most to real users. That taught me to prioritize customer impact and product reliability over the number of features shipped."
+## 0:40–1:10 — What I built (camera, then switch to dashboard)
 
-Use the exact achievement from your submitted resume. Do not imply you achieved team outcomes single-handedly if that isn't accurate.
+**Say:**
 
-## 1:15–2:15 — Business thesis (show one problem slide + dashboard)
+"A piece of work I'm proud of is helping improve crash-free sessions on a field-sales insurance app from 95% to 99.8%. I used Crashlytics data to prioritize fixes by their impact on users and also worked on strengthening app security. Earlier, I owned the launch of four consumer apps, which together reached more than two million downloads. Those experiences taught me to pair product quality with user impact and adoption."
 
-"Small finance and operations teams onboard suppliers through emails, chat and spreadsheets. Claude can draft a checklist, but the result often stays inside the conversation. VendorReady turns that into a real shared record. A team member asks Claude to prepare onboarding requirements; Claude invokes our MCP tool, and VendorReady saves the supplier with persistent requirements, due dates and editable status. Unlike a full procurement suite, this starts with one small job: supplier readiness before handoff. Customers bring their own Claude account. Our application makes no AI model calls, so our infrastructure doesn't pay inference costs. Our hypothesis is that simple recurring workflows are worth paying for."
+## 1:10–1:55 — Customer problem and solution (show dashboard)
 
-## 2:15–4:15 — Real live demo (screen recording)
+**Say:**
 
-**Do not fake this sequence. Record an actual successful run.**
+"The first customer hypothesis is a small finance, procurement, or operations team that repeatedly collects supplier information using email, chat, and spreadsheets. Requirements can be scattered, and it can be hard to tell what is still outstanding.
 
-1. Show Claude with the VendorReady connector enabled.
-2. Paste the test prompt from the app's Connect Claude screen.
-3. Show Claude invoking `create_vendor_onboarding` and receiving a successful result with a supplier ID.
-4. Switch to the deployed VendorReady website and sign in. (Hide passwords/keys while recording.)
-5. Refresh the supplier list and open the new supplier.
-6. Edit the target date or supplier name and save.
-7. Tick one checklist item and refresh to prove persistence.
-8. Optional: return to Claude, invoke `get_vendor_onboarding` with that supplier ID, and show the updated state.
+"With VendorReady, a team member asks Claude to create an onboarding checklist. Claude calls the VendorReady MCP tool, and the application saves the supplier and checklist. A manager can then open the web dashboard, update the details or checklist, and keep the latest status in one place. Claude can retrieve that updated record later. The product hypothesis is that persistence and human editing make an AI-assisted draft useful as an ongoing team workflow, rather than a one-off chat answer.
 
-Narration: "This is a real MCP connection — not a pasted JSON response. The record is stored in D1, and edits are written back to the same database. Claude writes and reasons; the app keeps the operational state live."
+"Claude runs using the customer's own account. VendorReady does not make AI model calls. The prototype tracks human-reported checklist completion; it does not independently verify documents, taxes, or bank details."
 
-## 4:15–5:00 — Economics & growth (camera + simple metric slide)
+## 1:55–4:05 — Live product demonstration (share screen)
 
-"Our initial price hypothesis is ₹999 per organization per month. Customers supply their own Claude usage, while we pay for hosting, storage, support and distribution. At 100 paying teams that would be roughly one lakh rupees of monthly recurring revenue, before costs and taxes. My first step would be to recruit five design partners among small finance and operations teams, validate repeated use, and then pursue 100 customers through direct outreach and referrals. Longer term, I'd add supplier collaboration and finance integrations only if customer evidence supports them. The biggest risk is whether users would pay rather than use spreadsheets; the pilots are designed to answer that."
+**Show:** Claude with the VendorReady connector enabled. Use the existing fictional Acme Test Supplies record or create a fresh fictional record. Keep the MCP key and all credentials off screen.
 
-## Before submission
+**Say:**
 
-- Check that the recording is under 5:00.
-- Hide any demo password, MCP secret, Cloudflare secrets or admin dashboards.
-- Confirm the real Claude invocation and real database changes are visible.
-- Use a recorded MP4 or a private/unlisted video link accessible to reviewers.
-- Keep this script natural. Don't present untested business hypotheses as proven metrics.
+"Here is Claude with the VendorReady connector enabled. I'm using fictional test information only. I'll ask Claude to create a sample supplier onboarding record."
+
+**Do:** Ask Claude to create a fictional supplier and checklist. Approve the `Create vendor onboarding` tool call. Wait for the result.
+
+**Say:**
+
+"Claude has called the VendorReady tool and returned a supplier record. I can now switch to the live VendorReady application and find that same record in the dashboard."
+
+**Do:** Open the deployed app. If prompted, sign in without recording or revealing the password. Open the fictional supplier. Show its details and checklist.
+
+**Say:**
+
+"This is the record Claude created. The checklist is editable here, so the team is not locked into the original response. I'll make a small change to a checklist item and save it."
+
+**Do:** Edit one checklist item or a harmless supplier detail and save. Refresh the page and show the change remains.
+
+**Say:**
+
+"After refreshing, the edit is still here. The browser and Claude are working with the same persisted record. I'll return to Claude and ask it to retrieve the latest version."
+
+**Do:** In Claude, request the supplier using the VendorReady `Get vendor onboarding` tool. Approve the call if asked. Show the returned updated value.
+
+**Say:**
+
+"Claude can now see the value I changed in the app. That is the key workflow I wanted to demonstrate: Claude creates, a person edits, and Claude can read the updated state. The supplier and checklist are fictional, and a checked item is not proof of legal, tax, or banking verification."
+
+## 4:05–5:00 — Business model, validation, and vision (camera or simple slide)
+
+**Say:**
+
+"The initial price hypothesis is 999 rupees per organization per month. It is not validated yet. Customers would bring their own Claude subscription; VendorReady would still have hosting, support, security, and customer acquisition costs. I would start with five small-business design partners, learn whether they use the workflow repeatedly, and test willingness to pay through direct outreach and referrals. My consumer-app experience reaching more than two million combined downloads also reinforced that building the product is only part of the job; teams need to find users and earn continued use.
+
+"In year one, I would focus on those pilots, improve the core workflow, and establish secure organization-level access before handling real supplier data. In year three, if customers show repeat use and the economics work, I would consider supplier collaboration, reminders, and selected finance integrations. Those are future possibilities, not features in this prototype.
+
+"The main risk is that teams may prefer spreadsheets or existing procurement systems. I would test that assumption with customers before expanding. Thank you for watching."
+
+## Recording checklist
+
+- Keep the final video below five minutes; do a timed rehearsal first.
+- Share the screen during the real Claude-to-app demo; the video should not be only a spoken pitch.
+- Hide the demo password, MCP key, Cloudflare dashboard, and any personal or account information.
+- Use fictional supplier data only. Do not imply that placeholder checklist items have been verified.
+- Confirm the uploaded video link is accessible to reviewers before submitting it.
+- If you add a personal achievement or metric, include it only if it is accurate and consistent with your resume.
