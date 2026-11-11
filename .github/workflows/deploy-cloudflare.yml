@@ -59,7 +59,7 @@ jobs:
           NODE
 
       - name: Apply production D1 migrations
-        run: npx wrangler d1 migrations apply DB --remote --config wrangler.jsonc --yes
+        run: npx wrangler d1 migrations apply DB --remote --config wrangler.jsonc
 
       - name: Build and deploy Worker plus web assets
         run: npm run deploy
