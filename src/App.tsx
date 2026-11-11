@@ -23,8 +23,17 @@ async function api<T>(path: string, options: RequestInit = {}): Promise<T> {
   } catch {
     throw new Error('Cannot reach the server. Check your connection and try again.');
   }
-  const result = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(result.error || `Request failed (${response.status}).`);
+  const result: unknown = await response.json().catch(() => null);
+  if (!response.ok) {
+    const message =
+      result !== null &&
+      typeof result === 'object' &&
+      'error' in result &&
+      typeof result.error === 'string'
+        ? result.error
+        : `Request failed (${response.status}).`;
+    throw new Error(message);
+  }
   return result as T;
 }
 
