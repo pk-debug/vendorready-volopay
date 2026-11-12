@@ -19,12 +19,34 @@ Built for Volopay — Founder’s Office, Product & Growth — Product & Tech As
 
 ## Architecture
 
-Customer → Claude.ai (customer's subscription)
-Claude → remote MCP request + fixed auth header → Cloudflare Worker /mcp
-Worker → validation → Cloudflare D1
-Browser → React UI → Worker /api/* → same D1 database
+- Customer → Claude.ai (customer's subscription)
+- Claude → remote MCP request + fixed auth header → Cloudflare Worker /mcp
+- Worker → validation → Cloudflare D1
+- Browser → React UI → Worker /api/* → same D1 database
 
 Claude runs outside VendorReady and pays for its own reasoning. VendorReady has no model keys or inference costs. MCP is the protocol used to connect Claude to the app.
+
+## Live demo and Claude setup
+
+- **Web app:** https://vendorready-volopay.coder-pawan1.workers.dev
+- **Health check:** https://vendorready-volopay.coder-pawan1.workers.dev/api/health
+- **Remote MCP server:** https://vendorready-volopay.coder-pawan1.workers.dev/mcp
+- **Demo username:** `demo@vendorready.app`
+
+The demo requires a password. It is intentionally not published in this repository. Request the current demo password and MCP key from the assignment owner through a private, reviewer-approved channel; do not put credentials in this README, a public issue, or the submission form.
+
+### Connect Claude
+
+1. In Claude, open **Customize → Connectors → Add custom connector**.
+2. Name it **VendorReady** and use the remote MCP server URL above.
+3. Choose **No sign-in**.
+4. Under **Request headers**, add:
+   - **Header name:** `Authorization`
+   - **Header value:** enter the word Bearer, a space, then paste the privately provided MCP key.
+5. Add the connector and enable it in a new Claude conversation. Approve VendorReady tool calls when prompted.
+6. Test with fictional information only, for example: “Create a fictional supplier called Acme Demo Supplies with a due date of 2026-12-20 and a short onboarding checklist.”
+
+To demonstrate persistence, open the supplier in the web app, make a harmless edit, refresh, then ask Claude to retrieve the supplier with `get_vendor_onboarding`. The app and Claude read and update the same D1-backed record. Checklist completion is human-reported; it does not verify documents, taxes, or bank details.
 
 ## Run locally
 
@@ -59,6 +81,8 @@ To deploy to Cloudflare, create the D1 database and configure the six repository
 
 This is an assessment prototype with one shared fictional workspace, not a production multi-tenant SaaS. It does not independently verify tax registrations, bank accounts or documents. Do not store real PAN details, bank account numbers, identity documents or sensitive supplier files. Production use would require per-organization authorization, rate limiting, audit logs, stronger account separation and a security review.
 
+If a demo credential is exposed, rotate it immediately rather than reusing it. Update the `DEMO_PASSWORD` or `MCP_API_KEY` GitHub Actions repository secret as appropriate, then run **Actions → Deploy VendorReady to Cloudflare** again so the encrypted Worker secret is updated.
+
 ## Repository structure
 
 - src/: React UI, sign-in, dashboard and editing
@@ -72,4 +96,4 @@ This is an assessment prototype with one shared fictional workspace, not a produ
 
 ## Deployment status
 
-The source is in GitHub, but the public app and remote MCP endpoint are not live until the Cloudflare deployment workflow completes successfully. Do not submit a guessed workers.dev URL.
+The app and remote MCP endpoint are deployed at the live URLs listed above. The deployment workflow is manual; see [GitHub Actions deployment instructions](docs/GITHUB_ACTIONS_DEPLOYMENT.md) for redeploying or rotating Worker secrets.
